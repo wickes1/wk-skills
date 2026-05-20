@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wk-skills",
+  "owner": {
+    "name": "wickes1",
+    "url": "https://github.com/wickes1"
+  },
+  "metadata": {
+    "description": "wickes1's personal Agent Skills library — gotchas, procedures, and patterns.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "wk-skills",
+      "source": "./",
+      "description": "Personal collection of Agent Skills for Claude Code and OpenCode.",
+      "homepage": "https://github.com/wickes1/wk-skills",
+      "repository": "https://github.com/wickes1/wk-skills",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "wickes1"
+      },
+      "strict": false,
+      "skills": [
+        "./.claude/skills/element-notification-sound"
+      ]
+    }
+  ]
+}
