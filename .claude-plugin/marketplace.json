@@ -22,7 +22,8 @@
       },
       "strict": false,
       "skills": [
-        "./.claude/skills/element-notification-sound"
+        "./.claude/skills/element-notification-sound",
+        "./.claude/skills/hermes-dashboard-fonts"
       ]
     }
   ]
